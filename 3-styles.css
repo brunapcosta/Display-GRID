@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(161, 160, 160);
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    
+}
+
+.space {
+    
+    color: black;
+    font-size: 30px;
+    background-color: rgb(162, 255, 68);
+}
+
+/* .one {
+    background: #333453;
+
+}
+
+.two {
+    background: #259b11;
+
+}
+
+.three {
+    background: #800534;
+}
+
+.four {
+    background: #0c8f9b;
+}
+
+.five {
+    background: #ff0a0a;
+}
+
+.six {
+    background: #880950;
+}
+
+.seven {
+    background: #702065;
+}
+
+.eight {
+    background: #402654;
+}
+
+.nine {
+    background: #906357;
+} */

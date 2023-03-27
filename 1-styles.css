@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px; */
+    
+    /*
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 30% 10% 60%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+        → As mesma medidas são usadas para linhas.
+    grid-auto-columns: 100px;
+    grid-auto-rows: 100px;
+        → As mesma medidas são usadas para linhas.
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 10px, 20px; primeiro valor é das as colunas, o segundo é das as linhas.
+    */
+
+}
+
+.space {
+    /* height: 300px;
+    width: 300px; */
+    color: white;
+    font-size: 30px;
+}
+
+.one {
+    background: #333453;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1, 3; */
+
+}
+
+.two {
+    background: #259b11;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* grid-row: 1, 3; */
+
+}
+
+.three {
+    background: #800534;
+}
+
+.four {
+    background: #0c8f9b;
+}
+
+.five {
+    background: #ff0a0a;
+}
+
+.six {
+    background: #880950;
+}
+
+.seven {
+    background: #702065;
+}
+
+.eight {
+    background: #402654;
+}
+
+.nine {
+    background: #906357;
+}
